@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Flowers Garden</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_flowers_garden">Flowers Garden</string>
+    <string name="text_phone_hint">Телефон</string>
+    <string name="text_next">Далее</string>
+    <string name="text_back">Назад</string>
+    <string name="text_title">Вход</string>
+    <string name="text_sms">Введите код из СМС</string>
+    <string name="text_resend">Отправить код заново</string>
+    <string name="text_not_access">Нет дооступа к телефону?</string>
+    <string name="text_help">Помощь</string>
+    <string name="text_registration">Регистрация</string>
+    <string name="text_to_order">Заказать</string>
+    <string name="text_fio">Имя Фамилия</string>
+    <string name="text_delivery_city">Город доставки</string>
+    <string name="text_delivery_address">Адрес доставки</string>
+    <string name="text_not_your_profile">Не ваш аккаунт?</string>
+    <string name="text_log_out">Выйти</string>
+    <string name="text_registration_done">Регистрация завершена</string>
+    <string name="text_to_card">В корзину</string>
+</resources>

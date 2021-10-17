@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/enter_navigation"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="uz.theairsoft.flowersgarden.ui.enter.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="uz.theairsoft.flowersgarden.ui.enter.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/navigateToSmsFragment"
+            app:destination="@id/smsAuthFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/smsAuthFragment"
+        android:name="uz.theairsoft.flowersgarden.ui.enter.SmsAuthFragment"
+        android:label="fragment_sms_auth"
+        tools:layout="@layout/fragment_sms_auth">
+        <action
+            android:id="@+id/navigateToWelcomeFragment"
+            app:destination="@id/welcomeFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="uz.theairsoft.flowersgarden.ui.enter.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration">
+        <action
+            android:id="@+id/navigateToDoneFragment"
+            app:destination="@id/doneFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="uz.theairsoft.flowersgarden.ui.enter.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/navigateToRegistrationFragment"
+            app:destination="@id/registrationFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/doneFragment"
+        android:name="uz.theairsoft.flowersgarden.ui.enter.DoneFragment"
+        android:label="fragment_done"
+        tools:layout="@layout/fragment_done" />
+
+</navigation>
