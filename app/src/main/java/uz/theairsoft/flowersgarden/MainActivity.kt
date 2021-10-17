@@ -1,4 +1,4 @@
-package uz.theairsoft.flowersgarden.ui.enter
+package uz.theairsoft.flowersgarden
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView

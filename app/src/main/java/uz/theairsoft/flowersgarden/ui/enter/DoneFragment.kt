@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import uz.theairsoft.flowersgarden.MainActivity
 import uz.theairsoft.flowersgarden.databinding.FragmentDoneBinding
 
 class DoneFragment : Fragment() {
@@ -25,7 +26,7 @@ class DoneFragment : Fragment() {
         }
 
         binding.btnNext.setOnClickListener {
-            startActivity(Intent(requireContext(),MainActivity::class.java))
+            startActivity(Intent(requireContext(), MainActivity::class.java))
         }
 
         return binding.root
